@@ -1,0 +1,67 @@
+body {
+  font-family: Tahoma;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.flag-container {
+  margin-bottom: 20px;
+}
+
+#flag {
+  max-width: 100%;
+  height: auto;
+  border: 1px black;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #45d32f;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6f802d;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.github-link {
+  display: inline-block;
+  background-color: gray;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.github-link a {
+  color: white;
+}

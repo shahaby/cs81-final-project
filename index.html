@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Name of the Country by Flag</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>What County's Flag is This?</h1>
+      <div class="flag-container">
+        <img id="flag" src="" alt="Country Flag" />
+      </div>
+      <input type="text" id="countryGuess" placeholder="Enter your guess" />
+      <button id="submitBtn">Submit</button> <button id="passBtn">Pass</button>
+      <p id="feedback"></p>
+      <p>Score: <span id="score">0</span></p>
+      <button id="restartBtn">Restart</button>
+    </div>
+    <footer class="footer">
+      <div class="github-link">
+        <a href="https://github.com/shahaby/cs81-final-project" target="_blank"
+          >View on GitHub</a
+        >
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
